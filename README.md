@@ -29,8 +29,8 @@ You need a modern web browser (Chrome, Firefox, Edge, etc.). No other tools or d
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
-    cd YOUR_REPO_NAME
+    git clone [[https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)](https://github.com/anujrwt08/Music-Playlist-Manager.git)
+    cd NEW
     ```
 
 2.  **Open the Application:**
@@ -75,4 +75,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Anuj Rawat - anujrwt08@gmail.com
 
-Project Link: [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME)
+Project Link: [[https://github.com/YOUR_USERNAME/YOUR_REPO_NAME](https://github.com/anujrwt08/Music-Playlist-Manager.git)]
