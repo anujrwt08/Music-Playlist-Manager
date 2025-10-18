@@ -1,0 +1,143 @@
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    color: #1a73e8;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px 0;
+}
+
+/* Input Area */
+.input-area input {
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#add-song-btn {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#add-song-btn:hover {
+    background-color: #45a049;
+}
+
+/* Current Song & Controls */
+.current-song-area {
+    text-align: center;
+}
+
+.song-card {
+    background-color: #e6f0ff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border-left: 5px solid #1a73e8;
+}
+
+.song-card .song-title {
+    font-weight: bold;
+    display: block;
+    font-size: 1.1em;
+}
+
+.controls button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #1a73e8;
+    color: white;
+    font-size: 1em;
+    transition: background-color 0.2s;
+}
+
+.controls button:hover {
+    background-color: #155bb5;
+}
+
+/* Playlist Display */
+#playlist-list {
+    list-style: none;
+    padding: 0;
+}
+
+#playlist-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    transition: background-color 0.2s, border-left 0.2s;
+}
+
+#playlist-list li:hover {
+    background-color: #f0f0f0;
+}
+
+.song-info {
+    flex-grow: 1;
+}
+
+.song-info .title {
+    font-weight: bold;
+}
+
+.delete-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #cc0000;
+}
+
+/* Highlight current song */
+.current-song {
+    background-color: #d1e7ff !important;
+    border-left: 5px solid #1a73e8;
+    font-weight: bold;
+}
+
+.empty-message {
+    text-align: center;
+    color: #888;
+    padding: 20px;
+}

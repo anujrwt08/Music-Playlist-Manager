@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DLL Playlist Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎵 Music Playlist Manager (DLL)</h1>
+
+        <div class="input-area">
+            <h2>Add New Song</h2>
+            <input type="text" id="title-input" placeholder="Song Title" required>
+            <input type="text" id="artist-input" placeholder="Artist Name" required>
+            <button id="add-song-btn">Add Song</button>
+        </div>
+
+        <hr>
+
+        <div class="current-song-area">
+            <h2>Now Playing:</h2>
+            <div id="current-song-display" class="song-card">
+                <span class="song-title">Select a song or add one to start!</span>
+            </div>
+            
+            <div class="controls">
+                <button id="prev-btn">⏮️ Previous</button>
+                <button id="next-btn">Next ⏭️</button>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="playlist-area">
+            <h2>Playlist</h2>
+            <ul id="playlist-list">
+                <li class="empty-message">Playlist is empty. Add some songs!</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
